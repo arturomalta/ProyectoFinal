@@ -47,9 +47,6 @@
     [maIncomeTitles addObject:enteredTitle];
     [maIncomeAmounts addObject:enteredAmount];
     
-    NSLog([maIncomeTitles objectAtIndex:0]);
-    NSLog([maIncomeAmounts objectAtIndex:0]);
-    
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end
