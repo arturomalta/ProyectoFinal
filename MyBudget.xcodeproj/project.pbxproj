@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E03E2091B93DBD200FAD78E /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E03E2081B93DBD200FAD78E /* Declarations.m */; };
+		8E03E2101B93DFD500FAD78E /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E03E20F1B93DFD500FAD78E /* Home.m */; };
+		8EBB46641B93F5A9007CDB04 /* intro_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB46631B93F5A9007CDB04 /* intro_01.jpg */; };
+		8EBB46661B93F71F007CDB04 /* intro_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB46651B93F71F007CDB04 /* intro_02.png */; };
+		8EBB46681B93F73E007CDB04 /* intro_03 in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB46671B93F73E007CDB04 /* intro_03 */; };
 		8EC9D84D1B8D3666002238E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D84C1B8D3666002238E1 /* main.m */; };
 		8EC9D8501B8D3666002238E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D84F1B8D3666002238E1 /* AppDelegate.m */; };
 		8EC9D8531B8D3666002238E1 /* MyBudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D8511B8D3666002238E1 /* MyBudget.xcdatamodeld */; };
-		8EC9D8561B8D3666002238E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D8551B8D3666002238E1 /* ViewController.m */; };
+		8EC9D8561B8D3666002238E1 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D8551B8D3666002238E1 /* Start.m */; };
 		8EC9D8591B8D3666002238E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC9D8571B8D3666002238E1 /* Main.storyboard */; };
 		8EC9D85B1B8D3666002238E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC9D85A1B8D3666002238E1 /* Images.xcassets */; };
 		8EC9D85E1B8D3666002238E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC9D85C1B8D3666002238E1 /* LaunchScreen.xib */; };
 		8EC9D86A1B8D3666002238E1 /* MyBudgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D8691B8D3666002238E1 /* MyBudgetTests.m */; };
+		8EF054531B9516A50001C772 /* Income.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF054521B9516A50001C772 /* Income.m */; };
+		8EF054561B9516B90001C772 /* Expense.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF054551B9516B90001C772 /* Expense.m */; };
+		8EFF72F51B8D41B100C2DC22 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF72F41B8D41B100C2DC22 /* Intro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E03E2071B93DBD200FAD78E /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		8E03E2081B93DBD200FAD78E /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		8E03E20E1B93DFD500FAD78E /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		8E03E20F1B93DFD500FAD78E /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		8EBB46631B93F5A9007CDB04 /* intro_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_01.jpg; sourceTree = "<group>"; };
+		8EBB46651B93F71F007CDB04 /* intro_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_02.png; sourceTree = "<group>"; };
+		8EBB46671B93F73E007CDB04 /* intro_03 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_03; sourceTree = "<group>"; };
 		8EC9D8471B8D3666002238E1 /* MyBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC9D84B1B8D3666002238E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EC9D84C1B8D3666002238E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8EC9D84E1B8D3666002238E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8EC9D84F1B8D3666002238E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EC9D84E1B8D3666002238E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyBudget/AppDelegate.h; sourceTree = "<group>"; };
+		8EC9D84F1B8D3666002238E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyBudget/AppDelegate.m; sourceTree = "<group>"; };
 		8EC9D8521B8D3666002238E1 /* MyBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyBudget.xcdatamodel; sourceTree = "<group>"; };
-		8EC9D8541B8D3666002238E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8EC9D8551B8D3666002238E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EC9D8541B8D3666002238E1 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		8EC9D8551B8D3666002238E1 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		8EC9D8581B8D3666002238E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EC9D85A1B8D3666002238E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8EC9D85D1B8D3666002238E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8EC9D8631B8D3666002238E1 /* MyBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC9D8681B8D3666002238E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EC9D8691B8D3666002238E1 /* MyBudgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBudgetTests.m; sourceTree = "<group>"; };
+		8EF054511B9516A50001C772 /* Income.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Income.h; sourceTree = "<group>"; };
+		8EF054521B9516A50001C772 /* Income.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Income.m; sourceTree = "<group>"; };
+		8EF054541B9516B90001C772 /* Expense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expense.h; sourceTree = "<group>"; };
+		8EF054551B9516B90001C772 /* Expense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expense.m; sourceTree = "<group>"; };
+		8EFF72F31B8D41B100C2DC22 /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		8EFF72F41B8D41B100C2DC22 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EBB46621B93F5A9007CDB04 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB46671B93F73E007CDB04 /* intro_03 */,
+				8EBB46651B93F71F007CDB04 /* intro_02.png */,
+				8EBB46631B93F5A9007CDB04 /* intro_01.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		8EC9D83E1B8D3666002238E1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,10 +114,9 @@
 		8EC9D8491B8D3666002238E1 /* MyBudget */ = {
 			isa = PBXGroup;
 			children = (
-				8EC9D84E1B8D3666002238E1 /* AppDelegate.h */,
-				8EC9D84F1B8D3666002238E1 /* AppDelegate.m */,
-				8EC9D8541B8D3666002238E1 /* ViewController.h */,
-				8EC9D8551B8D3666002238E1 /* ViewController.m */,
+				8EBB46621B93F5A9007CDB04 /* images */,
+				8EC9D8741B8D3797002238E1 /* Controllers */,
+				8EC9D8731B8D36D1002238E1 /* Main */,
 				8EC9D8571B8D3666002238E1 /* Main.storyboard */,
 				8EC9D85A1B8D3666002238E1 /* Images.xcassets */,
 				8EC9D85C1B8D3666002238E1 /* LaunchScreen.xib */,
@@ -120,6 +150,35 @@
 				8EC9D8681B8D3666002238E1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC9D8731B8D36D1002238E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8EC9D84E1B8D3666002238E1 /* AppDelegate.h */,
+				8EC9D84F1B8D3666002238E1 /* AppDelegate.m */,
+				8E03E2071B93DBD200FAD78E /* Declarations.h */,
+				8E03E2081B93DBD200FAD78E /* Declarations.m */,
+			);
+			name = Main;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8EC9D8741B8D3797002238E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EC9D8541B8D3666002238E1 /* Start.h */,
+				8EC9D8551B8D3666002238E1 /* Start.m */,
+				8EFF72F31B8D41B100C2DC22 /* Intro.h */,
+				8EFF72F41B8D41B100C2DC22 /* Intro.m */,
+				8E03E20E1B93DFD500FAD78E /* Home.h */,
+				8E03E20F1B93DFD500FAD78E /* Home.m */,
+				8EF054511B9516A50001C772 /* Income.h */,
+				8EF054521B9516A50001C772 /* Income.m */,
+				8EF054541B9516B90001C772 /* Expense.h */,
+				8EF054551B9516B90001C772 /* Expense.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +263,10 @@
 			files = (
 				8EC9D8591B8D3666002238E1 /* Main.storyboard in Resources */,
 				8EC9D85E1B8D3666002238E1 /* LaunchScreen.xib in Resources */,
+				8EBB46681B93F73E007CDB04 /* intro_03 in Resources */,
 				8EC9D85B1B8D3666002238E1 /* Images.xcassets in Resources */,
+				8EBB46661B93F71F007CDB04 /* intro_02.png in Resources */,
+				8EBB46641B93F5A9007CDB04 /* intro_01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFF72F51B8D41B100C2DC22 /* Intro.m in Sources */,
 				8EC9D8501B8D3666002238E1 /* AppDelegate.m in Sources */,
+				8E03E2091B93DBD200FAD78E /* Declarations.m in Sources */,
 				8EC9D84D1B8D3666002238E1 /* main.m in Sources */,
-				8EC9D8561B8D3666002238E1 /* ViewController.m in Sources */,
+				8E03E2101B93DFD500FAD78E /* Home.m in Sources */,
+				8EF054561B9516B90001C772 /* Expense.m in Sources */,
+				8EC9D8561B8D3666002238E1 /* Start.m in Sources */,
+				8EF054531B9516A50001C772 /* Income.m in Sources */,
 				8EC9D8531B8D3666002238E1 /* MyBudget.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +487,7 @@
 				8EC9D86F1B8D3666002238E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EC9D8701B8D3666002238E1 /* Build configuration list for PBXNativeTarget "MyBudgetTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +496,7 @@
 				8EC9D8721B8D3666002238E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
